@@ -1,0 +1,59 @@
+<div class="policy-container">
+  <div class="sidebar">
+    <h2>Workforce Management</h2>
+    <ul class="menu">
+      <li>Home</li>
+      <li>Admin</li>
+      <li>Analyst</li>
+      <li>HTO</li>
+      <li>Manage</li>
+      <li>Request</li>
+      <li>Responsibilities</li>
+      <li>Settings</li>
+      <li>Training</li>
+      <li class="active">Policy</li>
+      <li>Unscheduled Leave</li>
+      <li>View</li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <div class="tabs">
+      <button 
+        *ngFor="let program of programs" 
+        [class.active]="program === currentProgram"
+        (click)="switchProgram(program)">
+        {{ program }}
+      </button>
+    </div>
+
+    <div class="policy-list">
+      <h2>{{ currentProgram }} Policies</h2>
+      
+      <div class="search-bar">
+        <input type="text" placeholder="Search policies...">
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Policy Title</th>
+            <th>Last Updated</th>
+            <th>Version</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let policy of policies" (click)="viewPolicy(policy.id)" class="clickable">
+            <td>{{ policy.title }}</td>
+            <td>{{ policy.versions[0]?.date }}</td>
+            <td>{{ policy.versions[0]?.versionNumber }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div *ngIf="policies.length === 0" class="no-policies">
+        No policies available for {{ currentProgram }}
+      </div>
+    </div>
+  </div>
+</div>

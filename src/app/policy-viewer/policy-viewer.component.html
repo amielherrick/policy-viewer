@@ -1,0 +1,23 @@
+<div class="policy-viewer-container">
+  <div class="header">
+    <a routerLink="/policies/{{ policy?.program }}">← Back to {{ policy?.program }} Policies</a>
+    <h1>{{ policy?.title }}</h1>
+    
+    <div class="version-selector" *ngIf="policy && policy.versions.length > 0">
+      <label>Version: </label>
+      <select (change)="selectVersion(policy.versions[$any($event.target).value])">
+        <option *ngFor="let version of policy?.versions; let i = index" [value]="i" [selected]="version === selectedVersion">
+          {{ version.versionNumber }} ({{ version.date }})
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div class="policy-content" *ngIf="selectedVersion">
+    <div [innerHTML]="selectedVersion.content"></div>
+  </div>
+
+  <div *ngIf="!policy" class="no-policy">
+    Policy not found
+  </div>
+</div>

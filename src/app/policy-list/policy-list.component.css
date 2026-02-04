@@ -1,0 +1,139 @@
+.policy-container {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+  padding: 0;
+}
+
+.sidebar h2 {
+  background-color: #3f51b5;
+  color: white;
+  padding: 15px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 12px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.menu li:hover {
+  background-color: #e9ecef;
+}
+
+.menu li.active {
+  background-color: #e3f2fd;
+  border-left: 3px solid #3f51b5;
+  font-weight: bold;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+  background-color: #f1f1f1;
+  border-bottom: 2px solid #ddd;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: white;
+  border-bottom: 3px solid #3f51b5;
+  font-weight: bold;
+}
+
+.policy-list {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.policy-list h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+thead {
+  background-color: #f8f9fa;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #dee2e6;
+  color: #495057;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+tr.clickable {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+tr.clickable:hover {
+  background-color: #f8f9fa;
+}
+
+.no-policies {
+  text-align: center;
+  padding: 40px;
+  color: #6c757d;
+  font-style: italic;
+}

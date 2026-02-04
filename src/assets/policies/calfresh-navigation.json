@@ -1,0 +1,1086 @@
+{
+  "sections": [
+    {
+      "id": "handbook",
+      "title": "CalFresh Handbook",
+      "items": [
+        {
+          "id": "abawds",
+          "title": "ABAWDs",
+          "folder": "ABAWDs",
+          "files": [
+            {
+              "name": "ABAWD Definition",
+              "file": "ABAWD_Definition.html"
+            },
+            {
+              "name": "ABAWD Eligibility for CalFresh",
+              "file": "ABAWD_Eligibility_for_CalFresh.html"
+            },
+            {
+              "name": "ABAWD Exemptions Defined",
+              "file": "ABAWDExmptnDfnd.html"
+            },
+            {
+              "name": "ABAWD Subject to Time Limit",
+              "file": "ABAWD_Subject_to_Time_Limit.html"
+            },
+            {
+              "name": "ABAWD Time Limit",
+              "file": "ABAWDTmLmt.html"
+            },
+            {
+              "name": "ABAWD Time Limit Exemptions",
+              "file": "ABAWDTmLmtExmpt.html"
+            },
+            {
+              "name": "Certification Periods",
+              "file": "CertPrds.html"
+            },
+            {
+              "name": "Discretionary Exemptions",
+              "file": "PrcntgExempt.html"
+            },
+            {
+              "name": "Good Cause for Failure to Satisfy the Work Requirement",
+              "file": "GdCseFlreStsfyWkReq.html"
+            },
+            {
+              "name": "Initial Determination",
+              "file": "IntlDtrmntn.html"
+            },
+            {
+              "name": "Losing Eligibility",
+              "file": "LsgElgblty.html"
+            },
+            {
+              "name": "Satisfying the ABAWD Work Requirement",
+              "file": "StsfygABAWDWkReq.html"
+            },
+            {
+              "name": "Statewide Waiver",
+              "file": "Statewide_Waiver.html"
+            },
+            {
+              "name": "Tracking ABAWD Participation",
+              "file": "TrckgABAWDPtcptn.html"
+            }
+          ]
+        },
+        {
+          "id": "addingdeleting",
+          "title": "Adding Deleting",
+          "folder": "AddingDeleting",
+          "files": [
+            {
+              "name": "Adding A Person",
+              "file": "AddPerson.html"
+            },
+            {
+              "name": "Deleting a Person from a Change Reporting Household",
+              "file": "DeleteChngRepHH.html"
+            },
+            {
+              "name": "Deleting a Person from a Semi-Annual Reporting Household",
+              "file": "DeleteSARHH.html"
+            },
+            {
+              "name": "Semi-Annual Reporting (SAR) Households",
+              "file": "SARHousehold.html"
+            }
+          ]
+        },
+        {
+          "id": "application",
+          "title": "Application",
+          "folder": "Application",
+          "files": [
+            {
+              "name": "Applicant Interview Requirements",
+              "file": "ApplcntReq.html"
+            },
+            {
+              "name": "Application Forms",
+              "file": "AppForms.html"
+            },
+            {
+              "name": "Documentation",
+              "file": "Documentation.html"
+            },
+            {
+              "name": "Eligibility Determination",
+              "file": "ElgbtDtrmntn.html"
+            },
+            {
+              "name": "Eligibility Review Checklist",
+              "file": "Eligibility_Review_Checklist.html"
+            },
+            {
+              "name": "Head of Household Leaves the Home",
+              "file": "HeadLeaves.html"
+            },
+            {
+              "name": "Household Cooperation",
+              "file": "HsehldCoop.html"
+            },
+            {
+              "name": "Joint PA/CalFresh Applications",
+              "file": "JointPACFApp.html"
+            },
+            {
+              "name": "Processing Time Frames",
+              "file": "PrcsgTimeFrm.html"
+            },
+            {
+              "name": "Quality Control (QC) Cooperation",
+              "file": "QCCooprtn.html"
+            },
+            {
+              "name": "Reapplication After Receipt of Substantial Lottery or Gambling Winnings",
+              "file": "ReappLottery.html"
+            },
+            {
+              "name": "Rights and Responsibilities",
+              "file": "Rights.html"
+            },
+            {
+              "name": "Scheduling Interviews",
+              "file": "SchedIntrvw.html"
+            },
+            {
+              "name": "Withdrawals",
+              "file": "Withdrawals.html"
+            }
+          ]
+        },
+        {
+          "id": "authorized-representative",
+          "title": "Authorized Representative",
+          "folder": "Authorized_Representative",
+          "files": [
+            {
+              "name": "Authorized Representative",
+              "file": "AuthRep.html"
+            },
+            {
+              "name": "Emergency AR for Obtaining Benefits [63-402.614]",
+              "file": "Emergency_AR_for_Obtaining_Benefits.html"
+            },
+            {
+              "name": "Notification to Household and Designation of an AR",
+              "file": "Notification_to_Household_and_Designation_of_an_AR.html"
+            },
+            {
+              "name": "Powers of Attorney, Conservatorships, & Guardianships",
+              "file": "Powers_of_Attorney,_Conservatorships,_&_Guardianships.html"
+            },
+            {
+              "name": "Responsibility of an AR and Verification",
+              "file": "Responsibility_of_an_AR_and_Verification.html"
+            },
+            {
+              "name": "Restrictions on an Authorized Representative",
+              "file": "Restrictions_on_an_Authorized_Representative.html"
+            }
+          ]
+        },
+        {
+          "id": "budgeting-concepts",
+          "title": "Budgeting Concepts",
+          "folder": "Budgeting_Concepts",
+          "files": [
+            {
+              "name": "Benefit Computation",
+              "file": "Computation.html"
+            },
+            {
+              "name": "Budgeting Concepts",
+              "file": "BdgtgCncpts.html"
+            },
+            {
+              "name": "Child Support Disregards",
+              "file": "ChldSpptDsrgd.html"
+            },
+            {
+              "name": "General Assistance (GA)",
+              "file": "GA.html"
+            },
+            {
+              "name": "Mass Changes",
+              "file": "MssChngs.html"
+            },
+            {
+              "name": "Program Reduction, Suspension or Cancellation Procedures",
+              "file": "PrgrmRdctn.html"
+            },
+            {
+              "name": "Self-Employment",
+              "file": "SlfEmplymnt.html"
+            },
+            {
+              "name": "Sponsored Noncitizens",
+              "file": "SpnsrdNCit.html"
+            },
+            {
+              "name": "Strikers",
+              "file": "Strikers.html"
+            },
+            {
+              "name": "URAMS",
+              "file": "URAMS.html"
+            }
+          ]
+        },
+        {
+          "id": "cehouseholds",
+          "title": "CEHouseholds",
+          "folder": "CEHouseholds",
+          "files": [
+            {
+              "name": "Categorically Eligible (CE) Households",
+              "file": "CEHouseholds.html"
+            },
+            {
+              "name": "CE HH Determination",
+              "file": "CEHHDtrmtn..html"
+            },
+            {
+              "name": "Modified Categorical Eligibility (MCE)",
+              "file": "MCE.html"
+            }
+          ]
+        },
+        {
+          "id": "certification-period",
+          "title": "Certification Period",
+          "folder": "Certification_Period",
+          "files": [
+            {
+              "name": "Classification Changes",
+              "file": "ClassChg.html"
+            },
+            {
+              "name": "Establishing Certification Periods",
+              "file": "EstblshCertPrds.html"
+            }
+          ]
+        },
+        {
+          "id": "cfap",
+          "title": "CFAP",
+          "folder": "CFAP",
+          "files": [
+            {
+              "name": "California Food Assistance Program Overview",
+              "file": "CFAPOverview.html"
+            },
+            {
+              "name": "CFAP Eligibility",
+              "file": "Eligibility.html"
+            },
+            {
+              "name": "CFAP Work Requirement",
+              "file": "WkReq.html"
+            }
+          ]
+        },
+        {
+          "id": "cfet",
+          "title": "CFET",
+          "folder": "CFET",
+          "files": [
+            {
+              "name": "CalFresh Employment & Training",
+              "file": "Introduction.html"
+            },
+            {
+              "name": "CFET Components",
+              "file": "Components.html"
+            },
+            {
+              "name": "CFET Eligibility Requirements",
+              "file": "CFET_Eligibility_Requirements.html"
+            },
+            {
+              "name": "CFET/Third Party/Community Based Organization (CBO) CalSAWS Referral Process",
+              "file": "CFET3rdCBORef.html"
+            },
+            {
+              "name": "Non-Covered Services",
+              "file": "NnCvrdSrvcs.html"
+            },
+            {
+              "name": "Support Services",
+              "file": "Support_Services.html"
+            }
+          ]
+        },
+        {
+          "id": "disasterissuance",
+          "title": "Disaster Issuance",
+          "folder": "DisasterIssuance",
+          "files": [
+            {
+              "name": "Disaster CalFresh Program (DCFP)",
+              "file": "Purpose.html"
+            }
+          ]
+        },
+        {
+          "id": "excludednhmembers",
+          "title": "Excluded NHMembers",
+          "folder": "ExcludedNHMembers",
+          "files": [
+            {
+              "name": "Income & Expense Proration Examples",
+              "file": "Examples.html"
+            },
+            {
+              "name": "Ineligible Non-citizen, Ineligible ABAWD and SSN Excluded Members",
+              "file": "InelgblNoncitizn.html"
+            },
+            {
+              "name": "Ineligible Student Excluded Members",
+              "file": "InelgblStdnt.html"
+            },
+            {
+              "name": "IPV And Work Requirement Excluded Members",
+              "file": "IPVWork.html"
+            },
+            {
+              "name": "Multi-Category Excluded Persons",
+              "file": "MCEPerson.html"
+            },
+            {
+              "name": "Non-Household Members",
+              "file": "Non-Household_Members.html"
+            },
+            {
+              "name": "Proration of Deductions",
+              "file": "Proration.html"
+            },
+            {
+              "name": "Summary Chart",
+              "file": "Summary.html"
+            }
+          ]
+        },
+        {
+          "id": "hhmisfortune",
+          "title": "HHMisfortune",
+          "folder": "HHMisfortune",
+          "files": [
+            {
+              "name": "Available Emergency Assistance",
+              "file": "AvaiEmrgncyAsstnce.html"
+            }
+          ]
+        },
+        {
+          "id": "homeless-households",
+          "title": "Homeless Households",
+          "folder": "Homeless_Households",
+          "files": [
+            {
+              "name": "Homeless Households",
+              "file": "HH.html"
+            },
+            {
+              "name": "Shelter Allowance",
+              "file": "ShltrAlwnc.html"
+            }
+          ]
+        },
+        {
+          "id": "household-composition",
+          "title": "Household Composition",
+          "folder": "Household_Composition",
+          "files": [
+            {
+              "name": "Boarders",
+              "file": "Boarders.html"
+            },
+            {
+              "name": "Elderly Simplified Application Project (ESAP)",
+              "file": "Elderly_Simplified_Application_Project_(ESAP).html"
+            },
+            {
+              "name": "HH Decision",
+              "file": "HHDcsn.html"
+            },
+            {
+              "name": "Household Composition",
+              "file": "Definitions.html"
+            },
+            {
+              "name": "Nonparticipants",
+              "file": "Nonparticipants.html"
+            },
+            {
+              "name": "SSI/SSP Recipients",
+              "file": "SSISSP.html"
+            },
+            {
+              "name": "Strikers",
+              "file": "Strikers.html"
+            },
+            {
+              "name": "UAM",
+              "file": "UAM.html"
+            }
+          ]
+        },
+        {
+          "id": "ict",
+          "title": "ICT",
+          "folder": "ICT",
+          "files": [
+            {
+              "name": "Inter-County Transfer Definitions",
+              "file": "ICTDefs.html"
+            }
+          ]
+        },
+        {
+          "id": "incomedeductions",
+          "title": "Income Deductions",
+          "folder": "IncomeDeductions",
+          "files": [
+            {
+              "name": "Dependent Care",
+              "file": "DepCare.html"
+            },
+            {
+              "name": "Disallowed Expenses",
+              "file": "DsallwdExp.html"
+            },
+            {
+              "name": "Shelter Costs",
+              "file": "ShltrCsts.html"
+            },
+            {
+              "name": "Standard Deduction",
+              "file": "StdDdctn.html"
+            }
+          ]
+        },
+        {
+          "id": "income-definitions-and-exemptions",
+          "title": "Income Definitions and Exemptions",
+          "folder": "Income_Definitions_and_Exemptions",
+          "files": [
+            {
+              "name": "Agent Orange",
+              "file": "AgntOrng.html"
+            },
+            {
+              "name": "Charitable Contributions",
+              "file": "ChrtblContrbutn.html"
+            },
+            {
+              "name": "Child Support Payments",
+              "file": "ChldSupt.html"
+            },
+            {
+              "name": "Earned Income",
+              "file": "EarndIncm.html"
+            },
+            {
+              "name": "Exempt Income",
+              "file": "Exempt.html"
+            },
+            {
+              "name": "Indian Payments",
+              "file": "IndnPymnts.html"
+            },
+            {
+              "name": "Nonrecurring Lump Sum Payments",
+              "file": "NnrcrrgLmpSm.html"
+            },
+            {
+              "name": "Public Assistance Grant Reductions - Failure to Comply",
+              "file": "PblcAsstGrntRed.html"
+            },
+            {
+              "name": "Reimbursements",
+              "file": "Rembrsmnts.html"
+            },
+            {
+              "name": "UIB/DIB Offsets",
+              "file": "UIBDIBOffsts.html"
+            },
+            {
+              "name": "Unearned Income",
+              "file": "Unearned.html"
+            },
+            {
+              "name": "Vendor Payments",
+              "file": "VndrPymts.html"
+            }
+          ]
+        },
+        {
+          "id": "income-tests",
+          "title": "Income Tests",
+          "folder": "Income_Tests",
+          "files": [
+            {
+              "name": "Gross Income (130%) Test for Change Reporting Households",
+              "file": "Gross_Income_(130_)_Test_for_Change_Reporting_Households.html"
+            },
+            {
+              "name": "Gross Income (130%) Test for Semi-Annual Reporting (SAR) Households",
+              "file": "Gross_Income_(130_)_Test_for_Semi-Annual_Reporting_(SAR)_Households.html"
+            },
+            {
+              "name": "Gross/Net Income Tests",
+              "file": "Gross_Net_Income_Tests.html"
+            },
+            {
+              "name": "Households Subject to Income Tests",
+              "file": "Households_Subject_to_Income_Tests.html"
+            },
+            {
+              "name": "Net Monthly Income Test for Change Reporting Households",
+              "file": "Net_Monthly_Income_Test_for_Change_Reporting_Households.html"
+            },
+            {
+              "name": "Net Monthly Income Test for Semi-Annual Reporting Households",
+              "file": "Net_Monthly_Income_Test_for_Semi-Annual_Reporting_Households.html"
+            },
+            {
+              "name": "Separate Household Test for Elderly and Disabled Person",
+              "file": "Separate_Household_Test_for_Elderly_and_Disabled_Person.html"
+            },
+            {
+              "name": "Zero Benefits",
+              "file": "Zero_Benefits.html"
+            }
+          ]
+        },
+        {
+          "id": "institutionalresidents",
+          "title": "Institutional Residents",
+          "folder": "InstitutionalResidents",
+          "files": [
+            {
+              "name": "Drug/Alcohol Treatment Centers",
+              "file": "Drug_Alcohol_Treatment_Centers.html"
+            },
+            {
+              "name": "Group Living Arrangements",
+              "file": "Group_Living_Arrangements.html"
+            },
+            {
+              "name": "Homeless Shelters",
+              "file": "HmlssShltrs.html"
+            },
+            {
+              "name": "Institutional Residents",
+              "file": "Definitions.html"
+            },
+            {
+              "name": "Shelters for Battered Persons",
+              "file": "Shelters_for_Battered_Persons.html"
+            },
+            {
+              "name": "Sober Living Environments",
+              "file": "SbrLvgEnvrnmnts.html"
+            }
+          ]
+        },
+        {
+          "id": "issuance-ebt",
+          "title": "Issuance EBT",
+          "folder": "Issuance_EBT",
+          "files": [
+            {
+              "name": "CalFresh Restaurant Meals Program",
+              "file": "CalFresh_Restaurant_Meals_Program.html"
+            }
+          ]
+        },
+        {
+          "id": "noa",
+          "title": "NOA",
+          "folder": "NOA",
+          "files": [
+            {
+              "name": "Adequate Notice",
+              "file": "AdqtNotc.html"
+            },
+            {
+              "name": "NOA Exemptions",
+              "file": "Exemptions.html"
+            },
+            {
+              "name": "Notices of Action (NOAs)",
+              "file": "NOA.html"
+            }
+          ]
+        },
+        {
+          "id": "recertification",
+          "title": "Recertification",
+          "folder": "Recertification",
+          "files": [
+            {
+              "name": "Delayed Processing",
+              "file": "DelydProc.html"
+            },
+            {
+              "name": "Incomplete/Incorrect Statement of Facts (SOF)",
+              "file": "SOF.html"
+            },
+            {
+              "name": "Interview Requirements",
+              "file": "Interview_Requirements.html"
+            },
+            {
+              "name": "Processing a Timely Recertification",
+              "file": "PrcsTimlyRcrt.html"
+            },
+            {
+              "name": "Recertification Forms",
+              "file": "Forms.html"
+            },
+            {
+              "name": "Scheduling of Interviews",
+              "file": "Scheduling_of_Interviews.html"
+            },
+            {
+              "name": "Timely Recertification",
+              "file": "Timely_Recertification.html"
+            },
+            {
+              "name": "Type of Interview",
+              "file": "Type_of_Interview.html"
+            }
+          ]
+        },
+        {
+          "id": "residencycitizenimmigrant",
+          "title": "Residency Citizen Immigrant",
+          "folder": "ResidencyCitizenImmigrant",
+          "files": [
+            {
+              "name": "Citizenship",
+              "file": "Citizenship.html"
+            },
+            {
+              "name": "Eligibility Based on 40 Work Quarters",
+              "file": "40WrkQtr.html"
+            },
+            {
+              "name": "Eligible Non-citizens",
+              "file": "ElgblNnCtzn.html"
+            },
+            {
+              "name": "Ineligible Noncitizens",
+              "file": "InelgblNnctzn.html"
+            },
+            {
+              "name": "Noncitizen’s Status Decision Chart",
+              "file": "DecsnChrt.html"
+            },
+            {
+              "name": "Residency",
+              "file": "Residency.html"
+            },
+            {
+              "name": "Sponsor Deeming",
+              "file": "Sponsor_Deeming.html"
+            },
+            {
+              "name": "Trafficking Victim",
+              "file": "Trafficking_Victim.html"
+            },
+            {
+              "name": "Victims of Serious Crimes",
+              "file": "Victims_of_Serious_Crimes.html"
+            }
+          ]
+        },
+        {
+          "id": "resources",
+          "title": "Resources",
+          "folder": "Resources",
+          "files": [
+            {
+              "name": "Countable Resources",
+              "file": "CntablRsrc.html"
+            },
+            {
+              "name": "Exempt Resources",
+              "file": "ExmptRsrcs.html"
+            },
+            {
+              "name": "Inaccessible Resources",
+              "file": "Inaccessible.html"
+            },
+            {
+              "name": "Income-Producing Property",
+              "file": "IncmProp.html"
+            },
+            {
+              "name": "Property Used to Maintain Some Exempt Vehicles",
+              "file": "PropUsedExVhcls.html"
+            },
+            {
+              "name": "Requirements and Limits",
+              "file": "ReqLimit.html"
+            },
+            {
+              "name": "Value Determination",
+              "file": "ValueDet.html"
+            },
+            {
+              "name": "Vehicles",
+              "file": "Vehicles.html"
+            }
+          ]
+        },
+        {
+          "id": "sar7processing",
+          "title": "SAR7Processing",
+          "folder": "SAR7Processing",
+          "files": [
+            {
+              "name": "CF 30 Reminder Notice and Current Waiver",
+              "file": "CF_30_Reminder_Notice_and_Current_Waiver.html"
+            },
+            {
+              "name": "Definition of a Complete SAR 7",
+              "file": "DefCmpltSAR7.html"
+            },
+            {
+              "name": "Discontinued Households",
+              "file": "DScntnudHH.html"
+            },
+            {
+              "name": "Processing the SAR 7",
+              "file": "PrcssgSAR7.html"
+            },
+            {
+              "name": "Restoration of Aid Waiver",
+              "file": "RstrtnAidWvr.html"
+            },
+            {
+              "name": "SAR 7 Processing",
+              "file": "Defs.html"
+            },
+            {
+              "name": "Semi-Annual Reporting (SAR) Requirements",
+              "file": "SARReq.html"
+            }
+          ]
+        },
+        {
+          "id": "semiannualreporting",
+          "title": "Semi Annual Reporting",
+          "folder": "SemiAnnualReporting",
+          "files": [
+            {
+              "name": "County Initiated Mid-Period Actions",
+              "file": "CntyInttdMdPrdActns.html"
+            },
+            {
+              "name": "Multiple Mid-Period Changes",
+              "file": "MltMdPrdChng,htm.html"
+            },
+            {
+              "name": "Semi-Annual Reporting (SAR) Households",
+              "file": "SARHH.html"
+            },
+            {
+              "name": "Verified Upon Receipt (VUR)",
+              "file": "VUR.html"
+            },
+            {
+              "name": "Voluntary Mid-Period Recipient Report",
+              "file": "VlntryMdPrdRpt.html"
+            }
+          ]
+        },
+        {
+          "id": "shelter-deductions",
+          "title": "Shelter Deductions",
+          "folder": "Shelter_Deductions",
+          "files": [
+            {
+              "name": "Contributors - Within the CalFresh HH",
+              "file": "CntrbtnsWithin.html"
+            },
+            {
+              "name": "Housing Deduction",
+              "file": "Housing.html"
+            },
+            {
+              "name": "Overview - Shared Living Situations",
+              "file": "OvrvwShrd.html"
+            },
+            {
+              "name": "Shared Living Expenses Deduction",
+              "file": "SharedLivingExpensesDeduction.html"
+            },
+            {
+              "name": "Shared Living Expenses Deduction",
+              "file": "ShrdLvgExpDed.html"
+            },
+            {
+              "name": "Shelter Proration - Within CalFresh HH",
+              "file": "ShltrWithIn.html"
+            },
+            {
+              "name": "State Utility Assistance Subsidy (SUAS) Payment",
+              "file": "SUASPymt.html"
+            },
+            {
+              "name": "SUA vs. LUA vs. TUA",
+              "file": "SUALUATUA.html"
+            },
+            {
+              "name": "Utilities",
+              "file": "Utilities.html"
+            }
+          ]
+        },
+        {
+          "id": "ssnrequirements",
+          "title": "SSNRequirements",
+          "folder": "SSNRequirements",
+          "files": [
+            {
+              "name": "Newborn",
+              "file": "Newborn.html"
+            },
+            {
+              "name": "Social Security Number Requirements",
+              "file": "SSNReq.html"
+            }
+          ]
+        },
+        {
+          "id": "students",
+          "title": "Students",
+          "folder": "Students",
+          "files": [
+            {
+              "name": "Budgeting",
+              "file": "Budgeting.html"
+            },
+            {
+              "name": "Income",
+              "file": "Income.html"
+            },
+            {
+              "name": "Ineligible Students",
+              "file": "InelgblStdnts.html"
+            },
+            {
+              "name": "Institution of Higher Education",
+              "file": "HghrEd.html"
+            },
+            {
+              "name": "Student Eligibility Exemptions",
+              "file": "Student_Eligibility_Exemptions.html"
+            },
+            {
+              "name": "Students",
+              "file": "Students.html"
+            },
+            {
+              "name": "Verification of Exemption",
+              "file": "VrfctnExmptn.html"
+            },
+            {
+              "name": "Work Registration",
+              "file": "Work_Registration.html"
+            }
+          ]
+        },
+        {
+          "id": "suppnutrition",
+          "title": "Supp Nutrition",
+          "folder": "SuppNutrition",
+          "files": [
+            {
+              "name": "Inter-County Transfers (ICT)",
+              "file": "ICT.html"
+            },
+            {
+              "name": "SNB Program Benefit Amounts",
+              "file": "SNBPrgmBenAmt.html"
+            },
+            {
+              "name": "Supplemental Nutrition Program",
+              "file": "Background.html"
+            }
+          ]
+        },
+        {
+          "id": "supplemental-payments-and-claims",
+          "title": "Supplemental Payments and Claims",
+          "folder": "Supplemental_Payments_and_Claims",
+          "files": [
+            {
+              "name": "Intentional Program Violation (IPV)",
+              "file": "IPV.html"
+            },
+            {
+              "name": "Supplemental Payments and Claims Definitions",
+              "file": "Definitions.html"
+            },
+            {
+              "name": "Supplemental Payments and Underissuances (U/I)",
+              "file": "SuppPymtsUndrIss.html"
+            }
+          ]
+        },
+        {
+          "id": "tcf",
+          "title": "TCF",
+          "folder": "TCF",
+          "files": [
+            {
+              "name": "General TCF Guidelines",
+              "file": "GenGdlns.html"
+            },
+            {
+              "name": "Overissuances/Underissuances",
+              "file": "Overissuances_Underissuances.html"
+            },
+            {
+              "name": "Reapplication for CalWORKs",
+              "file": "ReappCalWORK.html"
+            },
+            {
+              "name": "Recertification Process",
+              "file": "Recertification_Process.html"
+            },
+            {
+              "name": "Transitional CalFresh Benefits",
+              "file": "TCFOvrvw.html"
+            }
+          ]
+        },
+        {
+          "id": "tnb",
+          "title": "TNB",
+          "folder": "TNB",
+          "files": [
+            {
+              "name": "Certification Period",
+              "file": "CertPrd.html"
+            },
+            {
+              "name": "Transitional Nutritional Benefit (TNB Program)",
+              "file": "Background.html"
+            }
+          ]
+        },
+        {
+          "id": "verification",
+          "title": "Verification",
+          "folder": "Verification",
+          "files": [
+            {
+              "name": "Categorically Eligible (CE) Households",
+              "file": "CEHousehlds.html"
+            },
+            {
+              "name": "Optional Verification",
+              "file": "Optional_Verification.html"
+            },
+            {
+              "name": "Process for Securing Verifications",
+              "file": "SecrgVrfctns.html"
+            },
+            {
+              "name": "Questionable Information",
+              "file": "QuestnblInfo.html"
+            },
+            {
+              "name": "Sources of Verification",
+              "file": "Sources.html"
+            },
+            {
+              "name": "Verification",
+              "file": "Overview.html"
+            },
+            {
+              "name": "Verification Chart",
+              "file": "Chart.html"
+            },
+            {
+              "name": "Verification Requirements",
+              "file": "VrfctnReqsRcrt.html"
+            },
+            {
+              "name": "Verification Type",
+              "file": "VerfctnType.html"
+            }
+          ]
+        },
+        {
+          "id": "wins",
+          "title": "WINS",
+          "folder": "WINS",
+          "files": [
+            {
+              "name": "WINS Benefit",
+              "file": "WINSBnft.html"
+            },
+            {
+              "name": "Work Incentive Nutritional Supplement (WINS) Program",
+              "file": "WINSBackground.html"
+            }
+          ]
+        },
+        {
+          "id": "workregistration",
+          "title": "Work Registration",
+          "folder": "WorkRegistration",
+          "files": [
+            {
+              "name": "Deferrals",
+              "file": "Deferrals.html"
+            },
+            {
+              "name": "Disqualification Overview",
+              "file": "Disqualification_Overview.html"
+            },
+            {
+              "name": "Loss of Exemption",
+              "file": "LossExmptn.html"
+            },
+            {
+              "name": "Registrant Requirements",
+              "file": "RegReqs.html"
+            },
+            {
+              "name": "Registration Procedures",
+              "file": "Registration_Procedures.html"
+            },
+            {
+              "name": "Voluntary Quit Disqualifications",
+              "file": "VolQuit.html"
+            },
+            {
+              "name": "Work Registration Exemptions",
+              "file": "Exemptions.html"
+            },
+            {
+              "name": "Work Registration Requirements",
+              "file": "Reqs.html"
+            },
+            {
+              "name": "Work Requirement Disqualifications",
+              "file": "WkReqDsqual.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

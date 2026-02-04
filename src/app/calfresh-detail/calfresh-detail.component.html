@@ -1,0 +1,58 @@
+<div class="policy-container">
+  <div class="sidebar" [class.collapsed]="sidebarCollapsed">
+  <div class="sidebar-toggle" (click)="toggleSidebar()">
+    <span class="sidebar-text">Sacramento User</span>
+  </div>
+  
+  <div class="sidebar-content" *ngIf="!sidebarCollapsed">
+    <h2>Workforce Management</h2>
+    <ul class="menu">
+      <li>Home</li>
+      <li class="active" (click)="sidebarCollapsed = true">Policy</li>
+          </ul>
+  </div>
+</div>
+
+  <div class="main-content">
+    <div class="tabs">
+      <button class="active" routerLink="/policies/CalFresh">CalFresh</button>
+      <button routerLink="/policies/CalWORKs">CalWORKs</button>
+      <button routerLink="/policies/Medi-Cal">Medi-Cal</button>
+    </div>
+
+    <div class="calfresh-detail-container">
+      <div class="navigation-panel">
+        <h3>CalFresh Handbook</h3>
+        
+        <div *ngFor="let section of navigation?.sections" class="nav-section">
+          <div *ngFor="let item of section.items" class="nav-item">
+            <div class="nav-item-header" (click)="toggleSection(item)">
+              <span class="expand-icon">{{ item.expanded ? '▼' : '►' }}</span>
+              <span>{{ item.title }}</span>
+            </div>
+            
+            <div *ngIf="item.expanded" class="nav-item-files">
+              <div 
+                *ngFor="let file of item.files" 
+                class="file-link"
+                (click)="loadContent(item.folder, file.file, file.name)">
+                {{ file.name }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-panel">
+        <div *ngIf="selectedContent" class="content-viewer">
+          <h2>{{ selectedTitle }}</h2>
+          <div class="content-body" [innerHTML]="selectedContent"></div>
+        </div>
+        
+        <div *ngIf="!selectedContent" class="no-content">
+          <p>Select a policy topic from the menu to view its content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
