@@ -20,6 +20,33 @@
       <button routerLink="/policies/Medi-Cal">Medi-Cal</button>
     </div>
 
+    <div class="search-container">
+      <div class="search-bar">
+        <input 
+          type="text" 
+          [(ngModel)]="searchQuery" 
+          (input)="onSearch()"
+          placeholder="Search CalFresh policies..."
+          class="search-input"
+        />
+        <button *ngIf="searchQuery" (click)="clearSearch()" class="clear-button">✕</button>
+      </div>
+      
+      <div *ngIf="isSearching && searchResults.length > 0" class="search-results">
+        <div 
+          *ngFor="let result of searchResults" 
+          class="search-result-item"
+          (click)="loadSearchResult(result)">
+          <div class="result-title">{{ result.file.name }}</div>
+          <div class="result-section">{{ result.sectionTitle }}</div>
+        </div>
+      </div>
+      
+      <div *ngIf="isSearching && searchResults.length === 0" class="no-results">
+        No results found for "{{ searchQuery }}"
+      </div>
+    </div>
+    
     <div class="calfresh-detail-container">
       <div class="navigation-panel">
         <h3>CalFresh Handbook</h3>
