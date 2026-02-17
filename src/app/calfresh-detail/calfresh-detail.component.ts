@@ -54,6 +54,15 @@ export class CalfreshDetailComponent implements OnInit {
   isSearching: boolean = false;
   fuse: Fuse<any> | null = null;
   
+  selectedRevision: string = 'current';
+  isSubscribed: boolean = false;
+  revisions: Array<{value: string, label: string}> = [
+    { value: 'current', label: 'Current Version' },
+    { value: '2024-02', label: 'February 2024' },
+    { value: '2024-01', label: 'January 2024' },
+    { value: '2023-12', label: 'December 2023' }
+  ];
+
   constructor(
     private http: HttpClient,
     private sanitizer: DomSanitizer
@@ -156,5 +165,19 @@ export class CalfreshDetailComponent implements OnInit {
 
   toggleSidebar() {
     this.sidebarCollapsed = !this.sidebarCollapsed;
+  }
+  onRevisionChange() {
+    console.log('Selected revision:', this.selectedRevision);
+  }
+
+  toggleSubscription() {
+    this.isSubscribed = !this.isSubscribed;
+    if (this.isSubscribed) {
+      console.log('Subscribed to:', this.selectedTitle);
+      alert(`You are now subscribed to updates for "${this.selectedTitle}"`);
+    } else {
+      console.log('Unsubscribed from:', this.selectedTitle);
+      alert(`You have unsubscribed from "${this.selectedTitle}"`);
+    }
   }
 }

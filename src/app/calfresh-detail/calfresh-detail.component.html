@@ -70,15 +70,43 @@
         </div>
       </div>
 
-      <div class="content-panel">
-        <div *ngIf="selectedContent" class="content-viewer">
-          <h2>{{ selectedTitle }}</h2>
-          <div class="content-body" [innerHTML]="selectedContent"></div>
-        </div>
-        
-        <div *ngIf="!selectedContent" class="no-content">
-          <p>Select a policy topic from the menu to view its content.</p>
-        </div>
+     <div class="content-panel">
+  <div class="content-with-options">
+    <div class="content-viewer-wrapper">
+      <div *ngIf="selectedContent" class="content-viewer">
+        <h2>{{ selectedTitle }}</h2>
+        <div class="content-body" [innerHTML]="selectedContent"></div>
+      </div>
+      
+      <div *ngIf="!selectedContent" class="no-content">
+        <p>Select a policy topic from the menu to view its content.</p>
+      </div>
+    </div>
+
+    <div *ngIf="selectedContent" class="options-box">
+      <div class="options-section">
+        <label class="options-label">Document Version</label>
+        <select 
+          [(ngModel)]="selectedRevision" 
+          (change)="onRevisionChange()"
+          class="revision-select">
+          <option *ngFor="let revision of revisions" [value]="revision.value">
+            {{ revision.label }}
+          </option>
+        </select>
+      </div>
+
+      <div class="options-section">
+        <button 
+          (click)="toggleSubscription()"
+          [class.subscribed]="isSubscribed"
+          class="subscribe-button">
+          <span class="button-icon">{{ isSubscribed ? '✓' : '🔔' }}</span>
+          {{ isSubscribed ? 'Subscribed' : 'Subscribe to Updates' }}
+        </button>
+        <p class="subscribe-hint" *ngIf="!isSubscribed">
+          Get notified when this policy is updated
+        </p>
       </div>
     </div>
   </div>

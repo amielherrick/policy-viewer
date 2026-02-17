@@ -249,8 +249,170 @@
 .content-panel {
   flex: 1;
   overflow-y: auto;
-  background-color: #e8eef5;  /* Add this - matches the page background */
+  background-color: #e8eef5;
   padding: 30px;
+}
+
+.content-with-options {
+  display: flex;
+  gap: 20px;
+  max-width: 1400px;
+}
+
+.content-viewer-wrapper {
+  flex: 1;
+  min-width: 0;
+}
+
+.content-viewer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.content-viewer h2 {
+  color: #333;
+  margin: 0 0 20px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #3f51b5;
+  font-size: 24px;
+}
+
+.content-body {
+  line-height: 1.6;
+  color: #333;
+}
+
+.content-body h1,
+.content-body h2,
+.content-body h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.content-body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.content-body table td,
+.content-body table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.content-body table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.no-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #999;
+  font-style: italic;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+/* Options Box Styles */
+.options-box {
+  width: 280px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  height: fit-content;
+  position: sticky;
+  top: 30px;
+}
+
+.options-section {
+  margin-bottom: 24px;
+}
+
+.options-section:last-child {
+  margin-bottom: 0;
+}
+
+.options-label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.revision-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.revision-select:focus {
+  outline: none;
+  border-color: #3f51b5;
+}
+
+.revision-select:hover {
+  border-color: #3f51b5;
+}
+
+.subscribe-button {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #3f51b5;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #3f51b5;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.subscribe-button:hover {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.subscribe-button.subscribed {
+  background-color: #4caf50;
+  border-color: #4caf50;
+  color: #fff;
+}
+
+.subscribe-button.subscribed:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+.button-icon {
+  font-size: 16px;
+}
+
+.subscribe-hint {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .content-viewer {
